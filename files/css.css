@@ -1,17 +1,7 @@
 
-@font-face {font-family: gent; src: url(Gentium400.woff2); font-style: normal; font-weight: normal;}
-@font-face {font-family: gent; src: url(Gentium401.woff2); font-style: italic; font-weight: normal;}
-@font-face {font-family: gent; src: url(Gentium800.woff2); font-style: normal; font-weight: bold;}
-@font-face {font-family: gent; src: url(Gentium801.woff2); font-style: italic; font-weight: bold;}
+@font-face {font-family: char; src: url(Charis400.woff2); font-style: normal; font-weight: normal;}
+@font-face {font-family: char; src: url(Charis401.woff2); font-style: italic; font-weight: normal;}
+@font-face {font-family: char; src: url(Charis700.woff2); font-style: normal; font-weight: bold;}
+@font-face {font-family: char; src: url(Charis701.woff2); font-style: italic; font-weight: bold;}
 
-body {
-background: #ffffff; color: #314158; /* white & slate 700 */
-font: 12pt/1.5 gent, sans-serif;
-hyphens: auto;
-margin: 0 auto; max-width: 40em; padding: 1em;
-}
-
-a:link, a:visited {color: #0069a8;} /* sky 700 */
-a:hover, a:active {color: #c70036;} /* rose 700 */
-
-.wys {margin: 1em 0;} .wys p {margin: 0; padding: 0 0 0 1em; text-indent: -1em;}
+body {font-family: char, sans-serif;}
